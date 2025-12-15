@@ -1,22 +1,17 @@
-# Project Prompt:
+# Project Prompt: Giovanni Villanueva, Johnathan Medina, David Gil
 
 # You are hired to build a Student Lookup Tool for a school front office. The secretary must be able to:
-
     # Enter a student’s full name
-
+                                                            # make your own/make the program do it
     # Instantly see:
 
             # CPS ID
-
             # Homeroom
-
             # Grade Level
-
             # Primary Email
-
             # Students must:
+            # Describe the search process  <---- dont worry about this
 
-            # Describe the search process
 
 ## be able to add new data
 # Your program must allow the secretary to ADD a brand new student
@@ -35,7 +30,7 @@
     #    - Homeroom
     #    - Grade Level
     #    - Primary Email
-    #    - Secondary Email
+    #    - Secondary Email 
 
 # 2. Combine the First and Last name into this format:
     #    "Last, First"  
