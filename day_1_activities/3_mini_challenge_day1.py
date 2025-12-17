@@ -21,7 +21,7 @@
 # Once the form is complete, your program must turn that information into a dictionary and add it to the main list of students.
 # If the student already exists (same CPS ID), your program must block the entry to prevent duplicates.
 
-# The program should:
+# The program should: Did
     # 1. Ask the user for the following information:
     #    - CPS ID
     #    - First Name
@@ -37,22 +37,22 @@
 
 
 
-# 2. Combine the First and Last name into this format:
+# 2. Combine the First and Last name into this format: Did
     #    "Last, First"  
 
-# 3. Store all of the new information into ONE dictionary
+# 3. Store all of the new information into ONE dictionary Did
     #    that matches the structure of the existing student data.
 
-# 4. Add (append) that new dictionary into the main students list.
+# 4. Add (append) that new dictionary into the main students list. Did
 
 # 5. After adding the student, the program must:
     #    - Print a confirmation message
     #    - Print the total number of students in the system
     #    - Print the newly added student record
 
-# 6. The program must NOT delete or overwrite any existing students.
+# 6. The program must NOT delete or overwrite any existing students. Okay
 
-# 7. If the CPS ID already exists in the system:
+# 7. If the CPS ID already exists in the system: Did 
         #    - Do NOT add the student
         #    - Display an error message saying the CPS ID is already taken
 
@@ -90,3 +90,4 @@ print("\nStudent successfully added!")
 print("Total number of students:", len(Student_data2))
 print("New Student Record:")
 print(new_student)
+
