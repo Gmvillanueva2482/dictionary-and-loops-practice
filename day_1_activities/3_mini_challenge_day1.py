@@ -32,6 +32,11 @@
     #    - Primary Email
     #    - Secondary Email 
 
+
+
+
+
+
 # 2. Combine the First and Last name into this format:
     #    "Last, First"  
 
@@ -51,5 +56,37 @@
         #    - Do NOT add the student
         #    - Display an error message saying the CPS ID is already taken
 
+Student_data2 = []
 
+cps_id = input ("Enter CPS ID: ")
+first_name = input ("Enter First Name: ")
+last_name = input ("Enter Last Name: ")
+middle_name = input ("Enter Middle Name: ")
+homeroom = input ("Enter Homeroom: ")
+grade_level = input ("Enter Grade Level: ")
+primary_email = input ("Enter Primary Email: ")
+secondary_email = input ("Enter Secondary Email: ")
 
+for student in Student_data2:
+    if student["CPS ID"] == cps_id:
+        print ("ERROR: CPS ID already exists.")
+        exit()
+
+full_name = last_name + " , " + first_name
+
+new_student = {
+"CPS ID": cps_id,
+"Full Name" : full_name,
+"Middle Name" : middle_name,
+"Homeroom" : homeroom,
+"Grade Level": grade_level,
+"Primary Email" : primary_email,
+"Secondary Email" : secondary_email
+}
+
+Student_data2.append(new_student)
+
+print("\nStudent successfully added!")
+print("Total number of students:", len(Student_data2))
+print("New Student Record:")
+print(new_student)
